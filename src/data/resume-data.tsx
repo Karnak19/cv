@@ -1,278 +1,163 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GlobeIcon } from "lucide-react";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+  name: "Basile Vernouillet",
+  initials: "BV",
+  location: "Capbreton, France, CET",
+  locationLink: "https://www.google.com/maps/place/Capbreton",
+  about: "Lead Frontend Developer, with fluent backend knowledge.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    // "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "As a Lead frontend Developer, I built the frontend architecture of multiple products from 0 to 1. Can lead frontend teams effectively, making sure everyone enjoy what they do and give their best. Currently, I work mostly with TypeScript, React and Node.js.",
+  avatarUrl:
+    "https://basile.vernouillet.dev/_next/image?url=/_next/static/media/avatar.b1edd67d.webp&w=256&q=100",
+  personalWebsiteUrl: "https://basile.vernouillet.dev",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "basile.vernouillet@gmail.com",
+    tel: "+33658851518",
     social: [
       {
+        name: "Website",
+        url: "https://basile.vernouillet.dev",
+        icon: GlobeIcon,
+      },
+
+      {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/Karnak19",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/basile-vernouillet/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/bazbazeo",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Lycée Bahuet",
+      degree: "BTS SIO SLAM",
+      start: "2013",
+      end: "2015",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
+      company: "Origins Digital",
+      link: "https://origins-digital.com",
+      badges: [],
+      title: "Lead Frontend Developer",
       start: "2021",
-      end: "2024",
+      end: "",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Build frontend part of our OTT platform. Techs: TypeScript, React, Next.js, OpenAPI codegen, Vercel, Taiwindcss, React-query, and more.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
+      company: "Pytheas Capital Advisors",
+      link: "https://pytheascapital.com",
+      badges: [],
+      title: "Lead Full Stack Developer",
+      start: "2021",
+      end: "2021",
+      description: "",
+    },
+    {
+      company: "Wild Code School",
+      link: "https://wildcodeschool.com",
+      badges: [],
+      title: "React Node.js Trainer",
+      start: "2019",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "Train and teach students to become Full Stack Developers. From zero to hero in 5 months. Techs: Linux,Git, React, Node.js, SQL, CI/CD, and more.",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "React/Next.js",
     "Node.js",
     "GraphQL",
-    "Relay",
-    "WebRTC",
+    "tRPC",
+    "Prisma",
+    "Docker",
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      title: "Airsoft-Market",
+      techStack: ["Side Project", "Next.js", "Prisma", "Firebase", "NeonDB"],
+      description:
+        "Marketplace for airsoft players. Buy and sell your airsoft gear",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "Airsoft-Market",
+        href: "https://airsoft-market.store/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+      title: "Origins OTT Platform",
+      techStack: ["TypeScript", "Next.js", "Vercel"],
+      description: "A platform for managing and distributing video content",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "origins-digital.com",
+        href: "https://www.origins-digital.com/_page__ott",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Origins Sportkit Platform",
+      techStack: ["TypeScript", "Next.js", "Vercel", "tRPC"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "A platform for managing and distributing content for sport clubs, federations and leagues",
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "origins-digital.com",
+        href: "https://www.origins-digital.com/_page__sportlab",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Handball TV",
+      techStack: ["TypeScript", "Next.js"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+        "OTT platform for french handball fans. Watch live games and replays. Based on Origins OTT Platform",
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "HandballTV",
+        href: "https://handballtv.fr/",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "FFGolf TV",
+      techStack: ["TypeScript", "Next.js"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "OTT platform for french golf federation. Based on Origins OTT Platform",
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "FFGolf TV",
+        href: "https://ffgolf.tv/",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
+      title: "FIM Moto TV",
+      techStack: ["TypeScript", "Next.js"],
+      description:
+        "OTT platform for FIM (Fédération Internationale de Motocyclisme). Based on Origins OTT Platform",
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "FIM Moto",
+        href: "https://fim-moto.tv/",
       },
     },
     {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "MauveTV",
+      techStack: ["TypeScript", "Next.js"],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+        "OTT platform for RSC Anderlecht. Based on Origins OTT Platform",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "MauveTV",
+        href: "https://mauvetv.rsca.be/",
       },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
