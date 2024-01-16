@@ -1,9 +1,9 @@
+import React from "react";
+import PlausibleProvider from "next-plausible";
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
-import React from "react";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,8 +23,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
+      <head>
+        <PlausibleProvider
+          domain="cv.basile.vernouillet.dev"
+          customDomain="https://plausible.rover.vernouillet.dev"
+        />
+      </head>
       <body>{children}</body>
-      <Analytics />
     </html>
   );
 }
