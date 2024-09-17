@@ -1,5 +1,25 @@
 export const projects = [
   {
+    title: "Supervive Stats",
+    techStack: ["Side Project", "Next.js", "Coolify", "Shadcn"],
+    description: 'Leaderboards, players stats for the game "Supervive"',
+    link: {
+      label: "Supervive Stats",
+      href: "https://supervivestats.coolify.vernouillet.dev/",
+    },
+  },
+  {
+    title: "Crustify",
+    techStack: ["Side Project", "Next.js", "Vercel", "Stripe", "Supabase"],
+    description:
+      "Website builder platform for pizzerias owners. Just manage your menu and your website is ready",
+    link: {
+      label: "Crustify",
+      href: "https://crustify.fr/",
+    },
+  },
+
+  {
     title: "Airsoft-Market",
     techStack: ["Side Project", "Next.js", "Prisma", "Firebase", "NeonDB"],
     description:
@@ -10,12 +30,13 @@ export const projects = [
     },
   },
   {
-    title: "Supervive Stats",
-    techStack: ["Side Project", "Next.js", "Coolify", "Shadcn"],
-    description: 'Leaderboards, players stats for the game "Supervive"',
+    title: "(Origins) NSW Venues",
+    techStack: ["Next.js", "Vercel", "Kontent.ai"],
+    description:
+      "Frontend architecture for New South Wales venues websites (9 in total)",
     link: {
-      label: "Supervive Stats",
-      href: "https://supervivestats.coolify.vernouillet.dev/",
+      label: "NSW Venues",
+      href: "https://www.sydneycricketground.com.au/",
     },
   },
   {
@@ -65,16 +86,6 @@ export const projects = [
     link: {
       label: "FIM Moto",
       href: "https://fim-moto.tv/",
-    },
-  },
-  {
-    title: "MauveTV",
-    techStack: ["TypeScript", "Next.js"],
-    description:
-      "OTT platform for RSC Anderlecht. Based on Origins OTT Platform",
-    link: {
-      label: "MauveTV",
-      href: "https://mauvetv.rsca.be/",
     },
   },
 ] as const;
