@@ -21,7 +21,7 @@ export const projects = [
 
   {
     title: "Airsoft-Market",
-    techStack: ["Side Project", "Next.js", "Prisma", "Firebase", "NeonDB"],
+    techStack: ["Side Project", "Next.js", "Prisma", "Firebase", "NeonDB", "Pocketbase"],
     description:
       "Marketplace for airsoft players. Buy and sell your airsoft gear",
     link: {

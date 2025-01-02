@@ -9,8 +9,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Capbreton",
   about: "Lead Frontend Developer, with fluent backend knowledge.",
   summary:
-    // "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-    "As a Lead frontend Developer, I built the frontend architecture of multiple products from 0 to 1. Can lead frontend teams effectively, making sure everyone enjoy what they do and give their best. Currently, I work mostly with TypeScript, React and Node.js.",
+    "As a Lead Frontend Developer, I built the frontend architecture of multiple products from 0 to 1. Can lead frontend teams effectively, making sure everyone enjoy what they do and give their best. Currently, I work mostly with TypeScript, React and Node.js. I am also building my own products/projects with NextJS, React, Node.js, Prisma, Supabase, Pocketbase, Docker, and more.",
   avatarUrl:
     "https://basile.vernouillet.dev/_next/image?url=/_next/static/media/avatar.b1edd67d.webp&w=256&q=100",
   personalWebsiteUrl: "https://basile.vernouillet.dev",
@@ -51,12 +50,21 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Ekino",
+      link: "https://ekino.com",
+      badges: [],
+      title: "Ingénieur Expert Adjoint",
+      start: "2024",
+      end: "",
+      description: "Develop and maintain web appplications built with React and NextJS.",
+    },
+    {
       company: "Origins Digital",
       link: "https://origins-digital.com",
       badges: [],
       title: "Lead Frontend Developer",
       start: "2021",
-      end: "",
+      end: "2024",
       description:
         "Build frontend part of our OTT platform. Techs: TypeScript, React, Next.js, OpenAPI codegen, Vercel, Taiwindcss, React-query, and more.",
     },
@@ -85,6 +93,8 @@ export const RESUME_DATA = {
     "TypeScript",
     "React/Next.js",
     "Node.js",
+    "Pocketbase",
+    "Supabase",
     "GraphQL",
     "tRPC",
     "Prisma",

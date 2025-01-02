@@ -12,6 +12,57 @@ import { ProjectCard } from "@/components/project-card";
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
   description: RESUME_DATA.summary,
+  keywords: [
+    "Frontend Developer",
+    "Lead Developer",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "NextJS",
+    "Full Stack Developer",
+    "Software Engineer",
+    "Web Development",
+    RESUME_DATA.name,
+    `${RESUME_DATA.name} Resume`,
+    `${RESUME_DATA.name} CV`,
+    `${RESUME_DATA.name} Curriculum Vitae`,
+  ],
+  authors: [{ name: RESUME_DATA.name, url: RESUME_DATA.personalWebsiteUrl }],
+  creator: RESUME_DATA.name,
+  publisher: RESUME_DATA.name,
+  robots: "index, follow",
+  alternates: {
+    canonical: RESUME_DATA.personalWebsiteUrl,
+  },
+  openGraph: {
+    type: "profile",
+    title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+    description: RESUME_DATA.summary,
+    firstName: RESUME_DATA.name.split(" ")[0],
+    lastName: RESUME_DATA.name.split(" ")[1],
+    url: RESUME_DATA.personalWebsiteUrl,
+    siteName: `${RESUME_DATA.name}'s Resume`,
+    images: [
+      {
+        url: RESUME_DATA.avatarUrl,
+        width: 256,
+        height: 256,
+        alt: RESUME_DATA.name,
+      },
+    ],
+    locale: "fr_FR",
+  },
+  twitter: {
+    card: "summary",
+    title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+    description: RESUME_DATA.summary,
+    images: [RESUME_DATA.avatarUrl],
+    creator: "@bazbazeo",
+  },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+  },
 };
 
 export default function Page() {
