@@ -7,19 +7,19 @@ export const RESUME_DATA = {
   initials: "BV",
   location: "Capbreton, France, CET",
   locationLink: "https://www.google.com/maps/place/Capbreton",
-  about: "Lead Frontend Developer, with fluent backend knowledge.",
+  about: "Software Engineer — Agentic AI & Developer Tooling",
   summary:
-    "As a Lead Frontend Developer, I built the frontend architecture of multiple products from 0 to 1. Can lead frontend teams effectively, making sure everyone enjoy what they do and give their best. Currently, I work mostly with TypeScript, React and Node.js. I am also building my own products/projects with NextJS, React, Node.js, Prisma, Supabase, Pocketbase, Docker, and more.",
+    "Frontend engineer by background, now focused on agentic AI and the developer tooling that makes it usable in production. Built the frontend architecture of multiple products from 0 to 1; currently part of Royal Canin's AI System Team as an Ekino consultant, building agentic systems in production. Outside client work, builds personal projects solo — one of them reaching ~1M page views per month — and works AI-first with coding agents daily.",
   avatarUrl:
-    "https://basile.vernouillet.dev/_next/image?url=/_next/static/media/avatar.b1edd67d.webp&w=256&q=100",
-  personalWebsiteUrl: "https://basile.vernouillet.dev",
+    "https://avatars.githubusercontent.com/u/7700494?v=4",
+  personalWebsiteUrl: "https://basilevernouillet.com",
   contact: {
     email: "basile.vernouillet@gmail.com",
     tel: "+33658851518",
     social: [
       {
         name: "Website",
-        url: "https://basile.vernouillet.dev",
+        url: "https://basilevernouillet.com",
         icon: GlobeIcon,
       },
 
@@ -42,6 +42,12 @@ export const RESUME_DATA = {
   },
   education: [
     {
+      school: "Wild Code School",
+      degree: "Web Development — PHP / Symfony",
+      start: "2018",
+      end: "2018",
+    },
+    {
       school: "Lycée Bahuet",
       degree: "BTS SIO SLAM",
       start: "2013",
@@ -56,7 +62,8 @@ export const RESUME_DATA = {
       title: "Ingénieur Expert Adjoint",
       start: "2024",
       end: "",
-      description: "Develop and maintain web appplications built with React and NextJS.",
+      description:
+        "Agentic AI & developer tooling in production. Part of Royal Canin's AI System Team — agentic systems in production. Architected the Next.js frontend of Havas' internal AI platform AVA (multi-model LLM access, persistent context, workflow orchestration — rolled out to 23,000 employees) and built its internal AI code review system. Frontend at scale for Canal+ International. R&D on agent memory for coding harnesses (Claude Code, Codex, OpenCode) and model/tooling evaluation.",
     },
     {
       company: "Origins Digital",
@@ -66,7 +73,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2024",
       description:
-        "Build frontend part of our OTT platform. Techs: TypeScript, React, Next.js, OpenAPI codegen, Vercel, Taiwindcss, React-query, and more.",
+        "Frontend architecture 0→1 for OTT and sports platforms (NSW Venues, Handball TV, FFGolf TV, FIM Moto TV). Led the frontend team from 2022 (previously Frontend Developer). Tech: TypeScript, React, Next.js, OpenAPI codegen, React Query, TailwindCSS, Vercel.",
     },
     {
       company: "Pytheas Capital Advisors",
@@ -75,7 +82,8 @@ export const RESUME_DATA = {
       title: "Lead Full Stack Developer",
       start: "2021",
       end: "2021",
-      description: "",
+      description:
+        "Led full-stack development initiatives for financial technology solutions.",
     },
     {
       company: "Wild Code School",
@@ -89,16 +97,23 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "JavaScript",
+    "React",
+    "Next.js",
     "TypeScript",
-    "React/Next.js",
     "Node.js",
-    "Pocketbase",
-    "Supabase",
-    "GraphQL",
+    "Agentic AI / LLM tooling",
+    "TailwindCSS",
+    "React Query",
     "tRPC",
+    "GraphQL",
+    "REST APIs",
     "Prisma",
+    "Supabase",
+    "PocketBase",
+    "Convex",
     "Docker",
+    "Vercel",
+    "CI/CD",
   ],
   projects,
 } as const;
